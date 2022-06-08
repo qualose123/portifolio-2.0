@@ -1,0 +1,116 @@
+@font-face {
+  font-family: CLOISTER;
+  src: url("/CloisterBlack.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: #2f3136;
+}
+
+/* CABEÇALHO*/
+header {
+  background-color: rgb(10, 10, 10);
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header > nav.menuPC > ul {
+  gap: 5rem;
+  display: flex;
+  list-style: none;
+}
+
+/*MAIN*/
+main {
+  min-height: 80vh;
+  width: 100vw;
+}
+/*TITULO PORTIFÓLIO*/
+section#start {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("./assets/img/background-portifolio.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: "CLOISTER";
+  color: green;
+}
+
+section#start > h1.efeitoT {
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: -2px -2px green;
+  -webkit-text-stroke: 1px green;
+  font-size: 80px;
+}
+
+.tipo-animacao {
+  animation: efectOne 400ms infinite normal steps(40),
+    tipo 3.5s 1s normal steps(40) infinite both;
+}
+
+@keyframes tipo {
+  from {
+    width: 0;
+  }
+  to {
+    width: 3.9em;
+  }
+}
+
+@keyframes efectOne {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* SEÇÃO DETALHHES*/
+section#detalhes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#detalhes > div.titulo {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+section#detalhes > div.sobremim {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  border: solid 3px red;
+  border-radius: 30px;
+  padding: 1rem;
+}
+section#detalhes > div.sobremim > img.MinhaFoto {
+  height: 100%;
+}
+
+/*RODAPÉ*/
+footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(10, 10, 10);
+}
