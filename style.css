@@ -34,6 +34,28 @@ main {
   min-height: 80vh;
   width: 100vw;
 }
+
+section.imagemMinha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("./assets/img/background\ foto.webp");
+  margin-top: -1rem;
+}
+
+section.imagemMinha > div{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.imagemMinha > div.miIMG > img {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
+}
+
 /*TITULO PORTIFÓLIO*/
 section#start {
   display: flex;
@@ -113,4 +135,12 @@ footer {
   height: 10vh;
   width: 100vw;
   background-color: rgb(10, 10, 10);
+}
+
+@media (width: 360px) {
+  section.imagemMinha {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
