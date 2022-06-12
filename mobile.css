@@ -1,0 +1,27 @@
+@media (max-width: 450px) {
+
+ 
+    section.imagemMinha {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    section.imagemMinha > div.miIMG > img{
+        width: 70vw;
+        height: 350px;
+    }
+
+    section#detalhes > div.sobremim{
+        width: 80vw;
+    }
+
+    header > nav.menuPC > ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+  
+  }
+  

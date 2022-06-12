@@ -50,7 +50,6 @@ section.imagemMinha > div{
 }
 
 section.imagemMinha > div.miIMG > img {
-  background-color: aqua;
   border-radius: 50%;
   width: 300px;
   height: 400px;
@@ -116,6 +115,7 @@ section#detalhes > div.titulo {
   display: flex;
   justify-content: center;
   font-size: 30px;
+  margin-top: 2rem;
 }
 
 section#detalhes > div.sobremim {
@@ -130,17 +130,95 @@ section#detalhes > div.sobremim > img.MinhaFoto {
   height: 100%;
 }
 
+/*PARTE PROJETOS*/
+
+section#projetos>h2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+section#projetos>div.cardsmain{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+section#projetos>div.cardsmain>div.cardsP{
+width: 400px;
+height: 340px;
+background-color: rgb(10,10,10);
+margin-bottom: 2rem;
+border: 2px solid red;
+border-radius: 20px;
+}
+
+section#projetos>div.cardsmain>div.cardsP>a>img{
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+section#projetos>div.cardsmain>div.cardsP>h3{
+  display: flex;
+  justify-content: center;
+}
+
+section#projetos>div.cardsmain>div.cardsP>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+section#projetos>div.cardsmain>div.cardsP>.iconslegend{
+  
+  width: 40px;
+  height: 40px;
+}
+section#stacks{
+  border:  2px solid red;
+}
+
+
+section#stacks>div{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+section#stacks>div>img{
+  width: 200px;
+  height: 200px;
+}
+
+h2.f{
+  display: flex;
+  justify-content: center;
+}
+
+section#contato{
+  display: flex;
+  justify-content: space-evenly;
+  border:  2px solid red;
+}
+
+section#contato>div>a>img{
+  width: 200;
+  height: 200px;
+}
+
 /*RODAPÉ*/
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 10vh;
   width: 100vw;
   background-color: rgb(10, 10, 10);
 }
-
-@media (width: 360px) {
-  section.imagemMinha {
-    display: flex;
-    flex-direction: column;
-  }
-
+footer>a>img{
+  width: 30px;
+  height: 30px;
 }
+
