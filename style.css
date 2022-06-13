@@ -3,6 +3,11 @@
   src: url("/CloisterBlack.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: AVENGERS;
+  src: url("./AVENGEANCE\ HEROIC\ AVENGER.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,11 +47,23 @@ section.imagemMinha {
   justify-content: space-evenly;
   background-image: url("./assets/img/background\ foto.webp");
   margin-top: -1rem;
+  font-family: 'AVENGERS';
 }
 
 section.imagemMinha > div{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+section.imagemMinha>div>h2{
+font-size: 40px;
+text-shadow: -2px -2px green;
+}
+
+section.imagemMinha>div>p{
+font-size: 30px;
+text-shadow: -2px -2px rgb(238,11,8);
+margin-left: 2rem;
 }
 
 section.imagemMinha > div.miIMG > img {
@@ -122,7 +139,7 @@ section#detalhes > div.sobremim {
   display: flex;
   justify-content: center;
   width: 50vw;
-  border: solid 3px red;
+  border: solid 3px rgb(111,0,255);
   border-radius: 30px;
   padding: 1rem;
 }
@@ -142,6 +159,7 @@ section#projetos>div.cardsmain{
   display: flex;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
 }
 
 section#projetos>div.cardsmain>div.cardsP{
@@ -149,7 +167,7 @@ width: 400px;
 height: 340px;
 background-color: rgb(10,10,10);
 margin-bottom: 2rem;
-border: 2px solid red;
+border: 2px solid rgb(111,0,255);
 border-radius: 20px;
 }
 
@@ -177,7 +195,7 @@ section#projetos>div.cardsmain>div.cardsP>.iconslegend{
   height: 40px;
 }
 section#stacks{
-  border:  2px solid red;
+  border:  2px solid rgb(111,0,255);
 }
 
 
@@ -200,7 +218,7 @@ h2.f{
 section#contato{
   display: flex;
   justify-content: space-evenly;
-  border:  2px solid red;
+  border:  2px solid rgb(111,0,255);
 }
 
 section#contato>div>a>img{
@@ -216,9 +234,11 @@ footer {
   height: 10vh;
   width: 100vw;
   background-color: rgb(10, 10, 10);
+  font-family: 'AVENGERS';
 }
 footer>a>img{
   width: 30px;
   height: 30px;
+  border-radius: 50%;
 }
 

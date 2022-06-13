@@ -1,6 +1,6 @@
 @media (max-width: 450px) {
 
- 
+    /*Parte Inicio*/
     section.imagemMinha {
       display: flex;
       flex-direction: column;
@@ -9,7 +9,7 @@
 
     section.imagemMinha > div.miIMG > img{
         width: 70vw;
-        height: 350px;
+        height: 320px;
     }
 
     section#detalhes > div.sobremim{
@@ -22,6 +22,45 @@
         gap: 1rem;
     }
     
-  
+    /*Parte Projetos*/
+    section#projetos>div{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    section#projetos>div.cardsmain>div.cardsP>div{
+        flex-wrap: wrap;
+    }
+    
+    section#projetos>div.cardsmain>div.cardsP{
+        width: 270px;
+        height: 340px
+    }
+
+    section#projetos>div.cardsmain>div.cardsP>a>img {
+        height: 200px;
+        width: 270px;
+        border-radius: 20px;
+    }
+    /*Parte Tecnologías*/
+section#stacks{
+    width: 95vw;
+}
+
+    section#stacks>div>img{
+        width: 100px;
+        height: 100px;
+    }
+    /*Parte Contato*/
+    section#contato {
+        display: flex;
+        justify-content: center;
+        border: 2px solid rgb(111,0,255);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+        width: 95vw;
+    }
   }
   
