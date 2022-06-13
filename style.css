@@ -38,7 +38,7 @@ header > nav.menuPC > ul {
 header > nav.menuPC > ul>a{
   text-decoration: none;
   color: white;
-  font-family: 'Anton';
+  font-family: 'AVENGERS';
   font-size: 20px;
 }
 
@@ -98,7 +98,7 @@ section#start {
   background-image: url("./assets/img/background-portifolio.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  font-family: "CLOISTER";
+  font-family: "AVENGERS";
   color: green;
 }
 
