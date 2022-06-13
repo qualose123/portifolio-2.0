@@ -1,5 +1,9 @@
 @media (max-width: 600px) {
 
+    section#start > h1.efeitoT{
+        text-transform: lowercase;
+    }
+
     /*Parte Inicio*/
     section.imagemMinha {
       display: flex;
