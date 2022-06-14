@@ -18,6 +18,7 @@
 body {
   color: white;
   background-color: #2f3136;
+  max-width: 100%;
 }
 
 /* CABEÇALHO*/
@@ -28,18 +29,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
 }
 
 header > nav.menuPC > ul {
   gap: 5rem;
   display: flex;
   list-style: none;
+  width: 100%;
 }
 header > nav.menuPC > ul>a{
   text-decoration: none;
   color: white;
   font-family: 'AVENGERS';
   font-size: 20px;
+  letter-spacing: .3rem;
 }
 
 header > nav.menuPC > ul>a:hover{
@@ -51,16 +55,17 @@ header > nav.menuPC > ul>a:hover{
 /*MAIN*/
 main {
   min-height: 80vh;
-  width: 100vw;
+  max-width: 100%;
 }
 
 section.imagemMinha {
   display: flex;
-  justify-content: center;
+
   align-items: center;
   justify-content: space-evenly;
   background-image: url("./assets/img/background\ foto.webp");
   margin-top: -1rem;
+  max-width: 100%;
   font-family: 'AVENGERS';
 }
 
@@ -82,8 +87,11 @@ margin-left: 2rem;
 
 section.imagemMinha > div.miIMG > img {
   border-radius: 50%;
+  object-fit: cover;
+  object-position: center top ;
   width: 300px;
-  height: 400px;
+  height: 300px;
+
   border: 2px solid #05f067;
   box-shadow: 0 0 15px #05f067;
 }
@@ -100,6 +108,7 @@ section#start {
   background-size: 100% 100%;
   font-family: "AVENGERS";
   color: green;
+  max-width: 100%;
 }
 
 section#start > h1.efeitoT {
@@ -140,6 +149,7 @@ section#start > h1.efeitoT {
 /* SEÇÃO DETALHHES*/
 section#detalhes {
   display: flex;
+  max-width: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -173,6 +183,7 @@ section#detalhes > div.sobremim > img.MinhaFoto {
 /*PARTE PROJETOS*/
 
 section#projetos>h2{
+  max-width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
@@ -182,6 +193,7 @@ section#projetos>h2{
 
 section#projetos>div.cardsmain{
   display: flex;
+  max-width: 100%;
   gap: 2rem;
   justify-content: center;
   align-items: center;
@@ -189,6 +201,7 @@ section#projetos>div.cardsmain{
 
 section#projetos>div.cardsmain>div.cardsP{
 width: 400px;
+max-width: 100%;
 height: 340px;
 background-color: rgb(10,10,10);
 margin-bottom: 2rem;
@@ -228,6 +241,7 @@ section#projetos>div.cardsmain>div.cardsP>.iconslegend{
 /*PARTE STACKS*/
 
 section#stacks{
+  max-width: 100%;
   border:  2px solid rgb(111,0,255);
 }
 
@@ -252,6 +266,7 @@ h2.f{
 }
 
 section#contato{
+  max-width: 100%;
   display: flex;
   justify-content: space-evenly;
   border:  2px solid rgb(111,0,255);
@@ -285,6 +300,7 @@ div.seta>img{
 
 /*RODAPÉ*/
 footer {
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
