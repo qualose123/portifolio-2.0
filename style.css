@@ -82,6 +82,7 @@ section#start {
   background-size: cover;
   font-family: "AVENGERS";
   color: green;
+  max-width: 100%;
 }
 
 section#start>h1.efeitoT {
@@ -161,6 +162,7 @@ section.imagemMinha div.miIMG img {
 /* SEÇÃO DETALHHES*/
 section#detalhes {
   display: flex;
+  max-width: 100%;
   flex-direction: column;
   align-items: center;
   background-color: #424242;
@@ -229,6 +231,7 @@ section#projetos h2 {
 
 section#projetos div.cardsmain {
   display: flex;
+  max-width: 100%;
   gap: 2rem;
   justify-content: center;
   align-items: center;
@@ -322,6 +325,7 @@ section#stacks h2 {
 
 /*RODAPÉ*/
 footer {
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
